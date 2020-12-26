@@ -4,3 +4,4 @@ This Challenge is about to code, at least, one hour every day for the next 100 d
 
 ### day 1: review all most important HTML tags
 ### day 2: SEO - Search Engine Optimization
+### day 3: learn about web accessibility
