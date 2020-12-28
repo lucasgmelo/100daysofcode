@@ -6,7 +6,7 @@
 
 ## what I did each day: 
 
-### day 1: review all most important HTML tags
+### day 1: review all most important HTML tags / create a simple landing page with html
 ### day 2: SEO - Search Engine Optimization
 ### day 3: learn about web accessibility
-### day 4: CSS introdution + seletors
+### day 4: CSS introdution + seletors / style the page landing with basic tools
