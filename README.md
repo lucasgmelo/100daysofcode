@@ -10,3 +10,4 @@
 ### day 2: SEO - Search Engine Optimization
 ### day 3: learn about web accessibility
 ### day 4: CSS introdution + seletors / style the page landing with basic tools
+### day 5: flexbox
