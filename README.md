@@ -22,5 +22,5 @@
 <h3> day 5: flexbox </h3>
 <p>Today, I've searched how Flexbox works and played a really nice game to review everything: Flexbox Froggy. I've already used it to style the last landing page.</p>
 
-<h3> day 6: dogs </h3>
+<h3> day 6-7: dogs </h3>
 <p>I'm also working in another project called Dogs :) you can check here https://github.com/lucasgmelo/dogs </p>
