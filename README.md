@@ -23,4 +23,7 @@
 <p>Today, I've searched how Flexbox works and played a really nice game to review everything: Flexbox Froggy. I've already used it to style the last landing page.</p>
 
 <h3> day 6-7: dogs </h3>
-<p>I'm also working in another project called Dogs :) you can check here https://github.com/lucasgmelo/dogs </p>
+<p>I'm also working in another project called Dogs :) you can check here: https://github.com/lucasgmelo/dogs </p>
+
+<h3> day 8: countdown </h3>
+<p>Today, the last day of the year, I've made a countdown (with html/css/js). link is here: https://github.com/lucasgmelo/new-year-countdown</p>
