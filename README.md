@@ -27,3 +27,15 @@
 
 <h3> day 8: countdown </h3>
 <p>Today, the last day of the year, I've made a countdown (with html/css/js). link is here: https://github.com/lucasgmelo/new-year-countdown</p>
+
+![web2](https://user-images.githubusercontent.com/61155203/103442081-bf359380-4c31-11eb-8504-0622f55a005c.gif)
+
+<h3> day 9: grid </h3>
+<p>Just created a page to study grid and responsivity! You can see the web, tablet and mobile version!</p>
+
+![Captura de Tela 2021-01-01 às 12 57 42](https://user-images.githubusercontent.com/61155203/103442065-93b2a900-4c31-11eb-91d4-d62c6a83c00e.png)
+
+![Captura de Tela 2021-01-01 às 12 58 10](https://user-images.githubusercontent.com/61155203/103442067-96150300-4c31-11eb-81d2-3b48d1563e06.png)
+
+![Captura de Tela 2021-01-01 às 12 58 32](https://user-images.githubusercontent.com/61155203/103442068-97dec680-4c31-11eb-909a-9351fca80316.png)
+
