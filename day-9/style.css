@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #eee;
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr) 4fr repeat(3, 1fr);
+    gap: 15px;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.container > * {
+    min-height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container *:nth-child(1),
+.container *:nth-child(6) {
+    background-color: #9eddef;
+}
+
+.container *:nth-child(2),
+.container *:nth-child(5) {
+    background-color: #f7e5b7;
+}
+
+.container *:nth-child(3) {
+    background-color: #ffdad1;
+}
+
+.container *:nth-child(4) {
+    background-color: #a7d9c9;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-areas: "a a" "b b" "c d" "c d" "e f";
+        grid-template-columns: 15% 85%;
+        grid-template-rows: repeat(2, 1fr) 4fr 1fr;
+    }
+
+    .container *:nth-child(1) {
+        grid-area: a;
+    }
+
+    .container *:nth-child(2) {
+        grid-area: b;
+    }
+
+    .container *:nth-child(3) {
+        grid-area: c;
+    }
+
+    .container *:nth-child(4) {
+        grid-area: d;
+    }
+
+    .container *:nth-child(5) {
+        grid-area: e;
+        min-height: 90px;
+    }
+
+    .container *:nth-child(6) {
+        grid-area: f;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        grid-template-areas: "a a a" "c b e" "c d e" "f f f" ;
+        grid-template-columns: 14% 70% 14%;
+        grid-template-rows: repeat(2, 1fr) 4fr 1fr;
+    }
+
+    .container > * {
+        min-height: 80px;
+    }
+
+    .container *:nth-child(1) {
+        grid-area: a;
+    }
+
+    .container *:nth-child(2) {
+        grid-area: b;
+    }
+
+    .container *:nth-child(3) {
+        grid-area: c;
+    }
+
+    .container *:nth-child(4) {
+        grid-area: d;
+    }
+
+    .container *:nth-child(5) {
+        grid-area: e;
+    }
+
+    .container *:nth-child(6) {
+        grid-area: f;
+    }
+}
