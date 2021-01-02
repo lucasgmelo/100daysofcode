@@ -16,7 +16,7 @@ body {
 }
 
 .head {
-    position: relative;
+    position: absolute;
 
     height: 10px;
     width: 10px;
@@ -170,4 +170,40 @@ body {
     left: 24px;
 
     transform: rotate(-10deg);
+}
+
+.container .hair>div:nth-child(1) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 100px;
+
+    border-top: 20px solid red;
+    border-radius: 50px 40px 0 0;
+    
+    top: -160px;
+    right: -90px;
+
+    transform: rotate(-235deg);
+
+    z-index: -1;
+}
+
+.container .hair>div:nth-child(2) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 100px;
+
+    border-top: 20px solid red;
+    border-radius: 50px 40px 0 0;
+    
+    top: -160px;
+    right: -90px;
+
+    transform: rotate(-235deg);
+
+    z-index: -1;
 }
