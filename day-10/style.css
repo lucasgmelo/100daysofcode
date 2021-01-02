@@ -16,7 +16,7 @@ body {
 }
 
 .head {
-    position: absolute;
+    position: relative;
 
     height: 10px;
     width: 10px;
@@ -27,6 +27,8 @@ body {
     border-right: 160px solid transparent;
 
     transform: rotate(150deg);
+
+    z-index: 1;
 }
 
 .head::before {
@@ -75,10 +77,10 @@ body {
     border-radius: 50%;
     border: 2px solid black;
 
-    transform: rotate(-30deg);
+    transform: rotate(175deg);
 
-    top: 210px;
-    left: 650px;
+    top: 170px;
+    left: -65px;
 }
 
 .eye::before {
@@ -115,4 +117,57 @@ body {
     box-shadow: 100px 36px 0 -1px #a1665e,
     70px 36px 0 -1px #a1665e,
     85px 50px 0 -1px #a1665e;
+}
+
+
+.yee {
+    position: fixed;
+
+    height: 70px;
+    width: 80px;
+
+    background: white;
+
+    border-radius: 50%;
+    border: 2px solid black;
+
+    transform: rotate(175deg);
+
+    top: 200px;
+    left: -15px;
+
+    z-index: -1;
+}
+
+.yee::before {
+    content: "";
+    position: absolute;
+
+    height: 22px;
+    width: 26px;
+
+    border-radius: 50%;
+
+    background: #1d1b38;
+
+    top: 28px;
+    left: 10px;
+
+    transform: rotate(-10deg);
+}
+
+.yee::after {
+    content: "";
+    position: absolute;
+
+    height: 8px;
+    width: 10px;
+
+    border-radius: 50%;
+    background: #fff;
+
+    top: 35px;
+    left: 24px;
+
+    transform: rotate(-10deg);
 }
