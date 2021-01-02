@@ -172,8 +172,12 @@ body {
     transform: rotate(-10deg);
 }
 
-.container .hair>div:nth-child(1) {
+.container .hair {
     position: relative;
+}
+
+.container .hair>div:nth-child(1) {
+    position: absolute;
     background: transparent;
 
     height: 30px;
@@ -182,8 +186,8 @@ body {
     border-top: 20px solid red;
     border-radius: 50px 40px 0 0;
     
-    top: -160px;
-    right: -90px;
+    top: -45px;
+    right: -80px;
 
     transform: rotate(-235deg);
 
@@ -197,13 +201,105 @@ body {
     height: 30px;
     width: 100px;
 
+    border-top: 27px solid red;
+    border-radius: 50px 33px 0 0;
+    
+    top: -15px;
+    right: -110px;
+
+    transform: rotate(-5deg);
+
+    z-index: -1;
+}
+
+.container .hair>div:nth-child(3) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 100px;
+
     border-top: 20px solid red;
     border-radius: 50px 40px 0 0;
     
-    top: -160px;
+    top: -110px;
+    right: -60px;
+
+    transform: rotate(-290deg);
+
+    z-index: -1;
+}
+
+.container .hair>div:nth-child(4) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 100px;
+
+    border-top: 27px solid red;
+    border-radius: 60px 33px 0 0;
+    
+    top: -145px;
+    right: -50px;
+
+    transform: rotate(-325deg);
+
+    z-index: -1;
+}
+
+.container .hair>div:nth-child(5) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 100px;
+
+    border-top: 20px solid red;
+    border-radius: 50px 33px 1px 0;
+    
+    top: -155px;
     right: -90px;
 
-    transform: rotate(-235deg);
+    transform: rotate(20deg);
+
+    z-index: -1;
+
+}
+
+.container .hair>div:nth-child(6) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 100px;
+
+    border-top: 20px solid red;
+    border-radius: 50% 50px 0 0;
+    
+    top: -220px;
+    right: -70px;
+
+    transform: rotate(49deg);
+
+    z-index: -1;
+
+}
+
+.container .hair>div:nth-child(7) {
+    position: relative;
+    background: transparent;
+
+    height: 30px;
+    width: 80px;
+
+    border-top: 20px solid red;
+    border-radius: 50px 50% 0 0;
+    
+    top: -280px;
+    right: -65px;
+
+    transform: rotate(5deg);
 
     z-index: -1;
 }
