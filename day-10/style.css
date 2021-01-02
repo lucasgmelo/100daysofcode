@@ -119,7 +119,7 @@ body {
 }
 
 .yee {
-  position: fixed;
+  position: relative;
 
   height: 70px;
   width: 80px;
@@ -129,10 +129,10 @@ body {
   border-radius: 50%;
   border: 2px solid black;
 
-  transform: rotate(175deg);
+  transform: rotate(-40deg);
 
-  top: 200px;
-  left: -15px;
+  top: -103px;
+  left: -25px;
 
   z-index: -1;
 }
@@ -172,6 +172,8 @@ body {
 
 .hair {
   position: relative;
+  top: -5px;
+  right: 40px;
 }
 
 .hair > div:nth-child(1) {
@@ -203,9 +205,9 @@ body {
   border-radius: 50px 33px 0 0;
 
   top: -15px;
-  right: -110px;
+  right: -100px;
 
-  transform: rotate(-5deg);
+  transform: rotate(5deg);
 
   z-index: -1;
 }
@@ -220,10 +222,10 @@ body {
   border-top: 20px solid red;
   border-radius: 50px 40px 0 0;
 
-  top: -110px;
-  right: -60px;
+  top: -105px;
+  right: -65px;
 
-  transform: rotate(-290deg);
+  transform: rotate(-300deg);
 
   z-index: -1;
 }
