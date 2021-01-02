@@ -8,7 +8,7 @@
 ## what I did each day: 
 
 <h3> day 1: review all most important HTML tags </h3>
-<p>I've created a simple landing page, just with HTML, to test all tags</p>
+<p>I've created a simple landing page, just with HTML, to review all tags</p>
 
 <h3> day 2: SEO - Search Engine Optimization </h3>
 <p>Here, I understood what SEO really means. How is so important to pay attention on it when you're developing a website. </p>
@@ -38,4 +38,10 @@
 ![Captura de Tela 2021-01-01 às 12 58 10](https://user-images.githubusercontent.com/61155203/103442067-96150300-4c31-11eb-81d2-3b48d1563e06.png)
 
 ![Captura de Tela 2021-01-01 às 12 58 32](https://user-images.githubusercontent.com/61155203/103442068-97dec680-4c31-11eb-909a-9351fca80316.png)
+
+<h3> day 10: phineas </h3>
+<p>I've created Phineas (yeah, from Phineas and Ferb) only with CSS! It was so gooood to do it. Learned a lot about position, border, z-index, transform...  ib: Pratham</p>
+
+![image](https://user-images.githubusercontent.com/61155203/103463909-9f27d200-4d0e-11eb-84b8-8d2ef5e373d7.png)
+
 
