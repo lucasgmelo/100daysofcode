@@ -8,8 +8,6 @@ body {
 .container {
     position: relative;
 
-    top: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +62,57 @@ body {
 
     top: 110px;
     left: -121px;
+}
+
+.eye {
+    position: absolute;
+
+    height: 70px;
+    width: 80px;
+
+    background: white;
+
+    border-radius: 50%;
+    border: 2px solid black;
+
+    transform: rotate(-30deg);
+
+    top: 210px;
+    left: 650px;
+}
+
+.eye::before {
+    content: "";
+    position: absolute;
+
+    height: 22px;
+    width: 26px;
+
+    border-radius: 50%;
+
+    background: #1d1b38;
+
+    top: 28px;
+    left: 10px;
+
+    transform: rotate(-10deg);
+}
+
+.eye::after {
+    content: "";
+    position: absolute;
+
+    height: 8px;
+    width: 10px;
+
+    border-radius: 50%;
+    background: #fff;
+
+    top: 35px;
+    left: 24px;
+
+    transform: rotate(-10deg);
+    box-shadow: 100px 36px 0 -1px #a1665e,
+    70px 36px 0 -1px #a1665e,
+    85px 50px 0 -1px #a1665e;
 }
