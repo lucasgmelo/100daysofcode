@@ -13,6 +13,8 @@ body {
   align-items: center;
 
   height: 100vh;
+
+  top: 50px;
 }
 
 .head {
@@ -189,7 +191,7 @@ body {
   top: -45px;
   right: -80px;
 
-  transform: rotate(-235deg);
+  transform: rotate(-240deg);
 
   z-index: -1;
 }
