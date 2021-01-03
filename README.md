@@ -44,4 +44,10 @@
 
 ![image](https://user-images.githubusercontent.com/61155203/103463909-9f27d200-4d0e-11eb-84b8-8d2ef5e373d7.png)
 
+<h3> day 11: glassmorfism </h3>
+<p> Today, I created simple cards, but using glassmorfism and creating elements on the background. </p>
+
+![image](https://user-images.githubusercontent.com/61155203/103490744-a3cab400-4dfc-11eb-805e-ce9a1a7fb638.png)
+
+
 
