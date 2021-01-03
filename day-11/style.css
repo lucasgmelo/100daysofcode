@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Baskervville', serif;
 
-    background: linear-gradient(180deg, #F1F1F1 -87.72%, #FFFFFF 135.94%);
+    background: linear-gradient(180deg, #F1F1F1 -87.72%, #FFFFFF 155.94%);
 
     overflow: hidden;
 }
@@ -13,8 +20,8 @@ body::before {
     content: '';
     position: absolute;
 
-    top: -176px;
-    left: 60px;
+    top: -250px;
+    left: 80px;
 
     width: 610px;
     height: 610px;
@@ -28,8 +35,8 @@ body::after {
     content: '';
     position: absolute;
 
-    top: 450px;
-    left: 774px;
+    top: 380px;
+    left: 734px;
 
     width: 610px;
     height: 610px;
@@ -37,6 +44,67 @@ body::after {
     
     background: linear-gradient(158.57deg, #FAD6A6 10.17%, #F06966 80.28%);
 
+    border-radius: 50%;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+
+    width: 557px;
+    height: 557px;
+
+    left: -77px;
+    top: 400px;
+
+    background: linear-gradient(223.82deg, #E233FF 7.66%, #FF6B00 86.15%); 
 
     border-radius: 50%;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+
+    width: 204px;
+    height: 204px;
+
+    left: 758px;
+    top: 130px;
+
+    background: linear-gradient(223.82deg, #FF6B00 7.66%, #E233FF 86.15%);
+
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.card {
+
+    width: 300px;
+    height: 320px;
+
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+    border-radius: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+
+
+    overflow: hidden;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
