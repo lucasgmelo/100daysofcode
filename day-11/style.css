@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    background: linear-gradient(180deg, #F1F1F1 -87.72%, #FFFFFF 135.94%);
+
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+
+    top: -176px;
+    left: 60px;
+
+    width: 610px;
+    height: 610px;
+
+    background: linear-gradient(164.67deg, #F06966 22.64%, #FAD6A6 89.24%);
+
+    border-radius: 50%;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+
+    top: 450px;
+    left: 774px;
+
+    width: 610px;
+    height: 610px;
+
+    
+    background: linear-gradient(158.57deg, #FAD6A6 10.17%, #F06966 80.28%);
+
+
+    border-radius: 50%;
+}
