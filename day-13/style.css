@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -10,12 +12,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     height: 100vh;
 }
 
 .hamburguer {
-         background: #eee;
+    cursor: pointer;
+}
+
+.line {
+        background-color: #eee;
     
         border-radius: .2rem;
         border: 1px solid transparent;
@@ -30,9 +36,10 @@ body {
         
         transition: .1s;
         cursor: pointer;
+
 }
 
-.hamburger::after {
+.line::after {
     content: '';
 
     display: block;
@@ -42,9 +49,59 @@ body {
     
     border-radius: .2rem;
     
-    background: currentColor;
+    background: black;
     
     box-shadow:  0 6px currentColor, 0 -6px currentColor;
 
     transition: .2s;
+}
+
+.ex::after {
+    transform: rotate(90deg);
+    width: 4px;
+    height: 4px;
+    box-shadow:  0 8px currentColor, 0 -8px currentColor;
+}
+
+.content {
+    position: absolute;
+
+    z-index: 1;
+    height: 40vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    transition: 0.3s ease;
+    display: none;
+
+}
+
+.content li {
+    
+    list-style: none;
+
+}
+
+.content li a {
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Roboto', sans-serif;
+
+    height: auto;
+}
+
+.menu-bg {
+    z-index: 1;
+
+    width: 0;
+    height: 0;
+
+    background: #eee;
+
+    transition: .3s ease;
 }
