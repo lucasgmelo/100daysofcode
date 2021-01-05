@@ -15,7 +15,7 @@ body {
     height: 100vh;
 
     background-color: #F8CB47;
-    transition: .1s;
+    transition: .2s;
 
 }
 
@@ -41,7 +41,7 @@ body {
         align-items: center;
         justify-content: center;
         
-        transition: .1s;
+        transition: .2s;
         cursor: pointer;
 
 }
@@ -87,8 +87,13 @@ body {
     align-items: center;
 
     transition: 0.3s ease;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
 
+}
+
+.contentOn {
+    
 }
 
 .content li {
@@ -104,15 +109,4 @@ body {
     font-family: 'Roboto', sans-serif;
 
     height: auto;
-}
-
-.menu-bg {
-    z-index: 1;
-
-    width: 0;
-    height: 0;
-
-    background: #eee;
-
-    transition: .3s ease;
 }
