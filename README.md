@@ -68,3 +68,21 @@
 <p> Today, I created simple cards, but using glassmorphism and creating elements on the background. </p>
 
 ![image](https://user-images.githubusercontent.com/61155203/103490744-a3cab400-4dfc-11eb-805e-ce9a1a7fb638.png)
+
+<h3 id="day12"> day 12: neumorphism </h3>
+<p> Discovering another design trend, here is :) </p>
+
+![03](https://user-images.githubusercontent.com/61155203/104057616-38ecf480-51d1-11eb-9207-98c209799d14.png)
+
+<h3 id="day13"> day 13: menu hamburguer </h3>
+<p> easy menu hamburguer with html/css/js </p>
+
+![menu](https://user-images.githubusercontent.com/61155203/104057880-9c772200-51d1-11eb-9df9-09af63a89e76.gif)
+
+<h3 id="day14"> day 14: loading page </h3>
+<p> today, I did a loading page, a spinner to study keyframes </p>
+
+![spinner](https://user-images.githubusercontent.com/61155203/104058025-db0cdc80-51d1-11eb-9e21-249af4758d98.gif)
+ 
+<h3 id="day15"> day 15: Axios and API Integration </h3>
+<p> I've made this repository do study API integration. I know it's more advanced than what I was doing, but it was neccessary to me now to study it. link is here :) https://github.com/lucasgmelo/learning-axios </p>
