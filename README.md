@@ -87,7 +87,7 @@
 ![spinner](https://user-images.githubusercontent.com/61155203/104058025-db0cdc80-51d1-11eb-9e21-249af4758d98.gif)
  
 <h3 id="day15"> day 15: Axios and API Integration </h3>
-<p> I've made this repository do study API integration. I know it's more advanced than what I was doing, but it was neccessary to me now to study it. link is here :) https://github.com/lucasgmelo/learning-axios </p>
+<p> I've made this repository do study API integration. I know it's more advanced than what I was doing in the past days, but it was neccessary to me now to study it. link is here :) https://github.com/lucasgmelo/learning-axios </p>
 
 <h3 id="day16"> day 16: Creating a Wheater Page </h3>
 <p> I have applied what I've learned about axios here and created an wheather page (shows your current location) </p>
