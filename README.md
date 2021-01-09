@@ -21,6 +21,8 @@
   <li><a href="#day13">Menu Hamburguer</a></li>
   <li><a href="#day14">Loading Page - Spinner</a></li>
   <li><a href="#day15">Axios and API Integration</a></li>
+  <li><a href="#day16">Creating a Wheater Page</a></li>
+
 
   
 </ol>
@@ -86,3 +88,6 @@
  
 <h3 id="day15"> day 15: Axios and API Integration </h3>
 <p> I've made this repository do study API integration. I know it's more advanced than what I was doing, but it was neccessary to me now to study it. link is here :) https://github.com/lucasgmelo/learning-axios </p>
+
+<h3 id="day16"> day 16: Creating a Wheater Page </h3>
+<p> I have applied what I've learned about axios here and created an wheather page (shows your current location) </p>
