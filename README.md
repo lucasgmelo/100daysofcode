@@ -91,3 +91,6 @@
 
 <h3 id="day16"> day 16: Creating a Wheater Page </h3>
 <p> I have applied what I've learned about axios here and created an wheather page (shows your current location) </p>
+
+<h3 id="day17"> day 17-18: Cooking </h3>
+<p> These 2 days, I've worked so hard on a project called Cooking <a href="https://github.com/Joserubemn31/cooking--frontend">repository link.</a> It's a website for food recipes and I'm learning a lot about React JS, Styled Components, Chakra UI and Design :)</p>
