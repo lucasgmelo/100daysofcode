@@ -76,3 +76,44 @@ h1 {
 .transform2D2{
     transform: skew(30deg, 45deg) scale(.6, .5);
 }
+
+.transition {
+    transition: width 1s ease, height 1s ease;
+}
+
+.transition:hover {
+    width: 120px;
+    height: 120px;
+}
+
+.transitionB {
+    transition: all 1s ease;
+    transition-delay: 1s; 
+}
+
+.transitionB:hover {
+    width: 120px;
+    height: 120px;
+    border-radius: 0;
+}
+
+.transitionC {
+    transition: all 1s ease; 
+}
+
+.transitionC:hover {
+    width: 120px;
+    height: 120px;
+    transform: skew(45deg)
+}
+
+.transitionD {
+    transition: all 1s ease; 
+}
+
+.transitionD:hover {
+    width: 120px;
+    height: 120px;
+    transform: skew(-45deg);
+    border-radius: 0;
+}
