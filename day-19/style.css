@@ -50,6 +50,13 @@ h1 {
     border-radius: 50%;
 }
 
+.black {
+    background: purple;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
 .blue {
     background: linear-gradient(127.02deg, #5E88F0 0%, #3364DF 100%);
     width: 90px;
@@ -116,4 +123,71 @@ h1 {
     height: 120px;
     transform: skew(-45deg);
     border-radius: 0;
+}
+
+.animation {
+    opacity: 0;
+    animation: in 5s forwards;
+    transform: translateX(-20px);
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+}
+
+@keyframes in {
+    to { 
+        transform: initial;
+        opacity: 1;
+        border-radius: 0;
+    }
+}
+
+.animationn {
+    animation: color 5s forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {background-color: blue;}
+    25% {background-color: greenyellow;}
+    50% {background-color: red;}
+    75% {background-color: brown;}
+    100% {background-color: orange;}
+
+}
+
+.godown {
+    animation: down 1s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes down {
+    to { 
+        transform: translate(10px, -10px)
+    }
+}
+
+.scale {
+    animation: scalex 1s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes scalex {
+    to { 
+        border-radius: 0;
+    }
+}
+
+.rotate {
+    animation: rotatex 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes rotatex {
+    to { 
+        transform: rotateZ(360deg) scale(.5, .5);
+    }
 }
