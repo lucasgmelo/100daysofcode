@@ -105,3 +105,6 @@
 
 <h3 id="day20"> day 20-21: To Do app</h3>
 <p> Yesterday, I saw this challenge on Front End Mentor (it's soooo cool), in the same moment, I decided to do. But, it was so advanced to me, it was taking much more time than I expected. I've done the visual and some script parts (including dark/light mode). More than tools, I've learned about understanding what I'm able to do and think about how much time it will take. <a href="https://github.com/lucasgmelo/to-do-list">repository link</a></p>
+
+<h3 id="day22">day 22: Windows XP - UI Clone</h3>
+<p>At this time, I decided to start improving JS habilities. To finish CSS advanced studies, I did an UI Clone of Windows XP login page! I saw Eddy Vinck's project of Windows XP and thought "why not?". I've seen the page and created a mockup on Figma (so cool to do it tooo! if u want to see it, talk to me!)</p>
