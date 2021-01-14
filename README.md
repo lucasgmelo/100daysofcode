@@ -25,6 +25,7 @@
   <li><a href="#day17">Cooking - project</a></li>
   <li><a href="#day19">Animations, Transitions and Transforms</a></li>
   <li><a href="#day20">To Do list - layout</a></li>
+  <li><a href="#day22">Windows XP - UI Clone</a></li>
 
 
 
