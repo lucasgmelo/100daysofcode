@@ -22,6 +22,11 @@
   <li><a href="#day14">Loading Page - Spinner</a></li>
   <li><a href="#day15">Axios and API Integration</a></li>
   <li><a href="#day16">Creating a Wheater Page</a></li>
+  <li><a href="#day17">Cooking - project</a></li>
+  <li><a href="#day19">Animations, Transitions and Transforms</a></li>
+  <li><a href="#day20">To Do list - layout</a></li>
+
+
 
 
   
@@ -94,3 +99,9 @@
 
 <h3 id="day17"> day 17-18: Cooking </h3>
 <p> These 2 days, I've worked so hard on a project called Cooking <a href="https://github.com/Joserubemn31/cooking--frontend">repository link.</a> It's a website for food recipes and I'm learning a lot about React JS, Styled Components, Chakra UI and Design :)</p>
+
+<h3 id="day19">day 19: animations, transitions and transforms</h3>
+<p>Ok. I've had SO fun today. it was so good to create this and learn about this important content.</p>
+
+<h3 id="day20"> day 20-21: To Do app</h3>
+<p> Yesterday, I saw this challenge on Front End Mentor (it's soooo cool), in the same moment, I decided to do. But, it was so advanced to me, it was taking much more time than I expected. I've done the visual and some script parts (including dark/light mode). More than tools, I've learned about understanding what I'm able to do and think about how much time it will take. <a href="https://github.com/lucasgmelo/to-do-list">repository link</a></p>
