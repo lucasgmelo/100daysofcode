@@ -112,9 +112,13 @@
 
 <h3 id="day22">day 22: Windows XP - UI Clone</h3>
 <p>At this time, I decided to start improving JS habilities. To finish CSS advanced studies, I did an UI Clone of Windows XP login page! I saw Eddy Vinck's project of Windows XP and thought "why not?". I've seen the page and created a mockup on Figma (so cool to do it tooo! if u want to see it, talk to me!). The Crystal icon user is an art by Samuel de Saboia. His arts are so cool, check it out too!</p>
+<a href="https://github.com/lucasgmelo/xp">repository link</a>
+
+![Captura de Tela 2021-01-14 às 20 09 07](https://user-images.githubusercontent.com/61155203/104661104-9805aa00-56a6-11eb-99a1-2e0ec5c6611d.png)
 
 <h3 id="day23">day 23: study javascript</h3>
 <p>To start a new phase, I decided to review and study some javascript concepts.</p>
 
 <h3 id="day24">day 24-25: cooking</h3>
 <p>These two days, i have studied and worked on this project. <a href="https://github.com/Joserubemn31/cooking--frontend">repository link.</a>. Learned a lot about React Router, loops, data.</p>
+
