@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -26,47 +27,75 @@ body {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: 17% 83%;
-      grid-template-rows: 17% 83%;
+  -ms-grid-rows: 20% 80%;
+      grid-template-rows: 20% 80%;
 }
 
 .calculator .display {
   background: #333;
   color: #fff;
+  font-size: 2.5rem;
   -ms-grid-row: 1;
   grid-row: 1;
   border-radius: 10px 10px 0 0;
-  padding: 20px 10px;
+  padding: 20px 30px;
   text-align: right;
 }
 
 .calculator button {
+  font-size: 1.5rem;
   border: 1px solid grey;
   border-radius: 0;
+  outline: none;
+  background-color: #fff;
+}
+
+.calculator button:disabled, .calculator button:active {
+  background-color: #eee;
 }
 
 .calculator button:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: mais;
+  background-color: #E7E7E7;
+}
+
+.calculator button:nth-child(1):disabled, .calculator button:nth-child(1):active {
+  background-color: #d3d1d1;
 }
 
 .calculator button:nth-child(2) {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: menos;
+  background-color: #E7E7E7;
+}
+
+.calculator button:nth-child(2):disabled, .calculator button:nth-child(2):active {
+  background-color: #d3d1d1;
 }
 
 .calculator button:nth-child(3) {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: vezes;
+  background-color: #E7E7E7;
+}
+
+.calculator button:nth-child(3):disabled, .calculator button:nth-child(3):active {
+  background-color: #d3d1d1;
 }
 
 .calculator button:nth-child(4) {
   -ms-grid-row: 1;
   -ms-grid-column: 4;
   grid-area: divide;
+  background-color: #E7E7E7;
+}
+
+.calculator button:nth-child(4):disabled, .calculator button:nth-child(4):active {
+  background-color: #d3d1d1;
 }
 
 .calculator button:nth-child(5) {
@@ -127,6 +156,7 @@ body {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: zero;
+  border-radius: 0 0 0 10px;
 }
 
 .calculator button:nth-child(15) {
@@ -146,6 +176,14 @@ body {
   -ms-grid-row-span: 4;
   -ms-grid-column: 4;
   grid-area: igual;
+  border-radius: 0 0 10px 0;
+  font-size: 2rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F18B69), to(#F06C38));
+  background: linear-gradient(180deg, #F18B69 0%, #F06C38 100%);
+}
+
+.calculator button:nth-child(17):active {
+  opacity: 0.9;
 }
 
 .calculator .keys {
