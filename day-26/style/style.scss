@@ -1,0 +1,122 @@
+@mixin flex($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #9D7AFF;
+
+    height: 100vh;
+
+    @include flex(center, center);
+}
+
+.calculator {
+    height: 70%;
+    width: 40vw;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 17% 83%;
+
+        .display {
+            background: #333;
+            color: #fff;;
+
+            grid-row: 1;
+
+            border-radius: 10px 10px 0 0;
+            padding: 20px 10px;
+
+            text-align: right;
+        }
+
+        button {
+            border: 1px solid grey;
+            border-radius: 0;
+
+            &:nth-child(1){
+                grid-area: mais;
+            }
+
+            &:nth-child(2){
+                grid-area: menos;
+            }
+
+            &:nth-child(3){
+                grid-area: vezes;
+            }
+
+            &:nth-child(4){
+                grid-area: divide;
+            }
+
+            &:nth-child(5){
+                grid-area: sete;
+            }
+
+            &:nth-child(6){
+                grid-area: oito;
+            }
+
+            &:nth-child(7){
+                grid-area: nove;
+            }
+
+            &:nth-child(8){
+                grid-area: quatro;
+            }
+            &:nth-child(9){
+                grid-area: cinco;
+            }
+
+            &:nth-child(10){
+                grid-area: seis;
+            }
+
+            &:nth-child(11){
+                grid-area: um;
+            }
+
+            &:nth-child(12){
+                grid-area: dois;
+            }
+            &:nth-child(13){
+                grid-area: tres;
+            }
+
+            &:nth-child(14){
+                grid-area: zero;
+            }
+
+            &:nth-child(15){
+                grid-area: ponto;
+            }
+
+            &:nth-child(16){
+                grid-area: c;
+            }
+
+            &:nth-child(17){
+                grid-area: igual;
+            }
+        }
+
+        .keys {
+            display: grid;
+            grid-row: 2;
+
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas: "mais menos vezes divide" "sete oito nove igual" "quatro cinco seis igual" "um dois tres igual" "zero ponto c igual";
+
+        }
+
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #9D7AFF;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator {
+  height: 70%;
+  width: 40vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 17% 83%;
+      grid-template-rows: 17% 83%;
+}
+
+.calculator .display {
+  background: #333;
+  color: #fff;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 10px;
+  text-align: right;
+}
+
+.calculator button {
+  border: 1px solid grey;
+  border-radius: 0;
+}
+
+.calculator button:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: mais;
+}
+
+.calculator button:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: menos;
+}
+
+.calculator button:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: vezes;
+}
+
+.calculator button:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: divide;
+}
+
+.calculator button:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: sete;
+}
+
+.calculator button:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: oito;
+}
+
+.calculator button:nth-child(7) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: nove;
+}
+
+.calculator button:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: quatro;
+}
+
+.calculator button:nth-child(9) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: cinco;
+}
+
+.calculator button:nth-child(10) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: seis;
+}
+
+.calculator button:nth-child(11) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: um;
+}
+
+.calculator button:nth-child(12) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: dois;
+}
+
+.calculator button:nth-child(13) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: tres;
+}
+
+.calculator button:nth-child(14) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: zero;
+}
+
+.calculator button:nth-child(15) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: ponto;
+}
+
+.calculator button:nth-child(16) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: c;
+}
+
+.calculator button:nth-child(17) {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 4;
+  grid-area: igual;
+}
+
+.calculator .keys {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: "mais menos vezes divide" "sete oito nove igual" "quatro cinco seis igual" "um dois tres igual" "zero ponto c igual";
+}
+/*# sourceMappingURL=style.css.map */
