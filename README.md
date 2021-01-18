@@ -12,7 +12,6 @@
   <li><a href="#day3">Web Accessibility</a></li>
   <li><a href="#day4">CSS introdution + seletors</a></li>
   <li><a href="#day5">flexbox</a></li>
-  <li><a href="#day6">Dogs - project</a></li>
   <li><a href="#day8">New Year Countdown </a></li>
   <li><a href="#day9">Grid</a></li>
   <li><a href="#day10">Phineas</a></li>
@@ -22,7 +21,6 @@
   <li><a href="#day14">Loading Page - Spinner</a></li>
   <li><a href="#day15">Axios and API Integration</a></li>
   <li><a href="#day16">Creating a Wheater Page</a></li>
-  <li><a href="#day17">Cooking - project</a></li>
   <li><a href="#day19">Animations, Transitions and Transforms</a></li>
   <li><a href="#day20">To Do list - layout</a></li>
   <li><a href="#day22">Windows XP - UI Clone</a></li>
@@ -114,3 +112,9 @@
 
 <h3 id="day22">day 22: Windows XP - UI Clone</h3>
 <p>At this time, I decided to start improving JS habilities. To finish CSS advanced studies, I did an UI Clone of Windows XP login page! I saw Eddy Vinck's project of Windows XP and thought "why not?". I've seen the page and created a mockup on Figma (so cool to do it tooo! if u want to see it, talk to me!). The Crystal icon user is an art by Samuel de Saboia. His arts are so cool, check it out too!</p>
+
+<h3 id="day23">day 23: study javascript</h3>
+<p>To start a new phase, I decided to review and study some javascript concepts.</p>
+
+<h3 id="day24">day 24-25: cooking</h3>
+<p>These two days, i have studied and worked on this project. <a href="https://github.com/Joserubemn31/cooking--frontend">repository link.</a>. Learned a lot about React Router, loops, data.</p>
