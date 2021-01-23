@@ -125,6 +125,8 @@
 <h3 id="day26">day 26: calculator</h3>
 <p>I did the interface of a calculator, mockup and code. I pretend to make it useful later when i learn more about js.</p>
 
+![image](https://user-images.githubusercontent.com/61155203/105608228-85176780-5d81-11eb-881b-40325e95b987.png)
+
 <h3 id="day27">day 27: init javascript</h3>
 <p>I studied JavaScript, especifically about how to manipulate elements of DOM. How to get elements, event listeners</p>
 
