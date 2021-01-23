@@ -20,6 +20,10 @@ body {
           align-items: center;
 }
 
+.is-depressed {
+  background-color: #d3d1d1;
+}
+
 .calculator {
   height: 70%;
   width: 40vw;
