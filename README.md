@@ -122,3 +122,14 @@
 <h3 id="day24">day 24-25: cooking</h3>
 <p>These two days, i have studied and worked on this project. <a href="https://github.com/Joserubemn31/cooking--frontend">repository link.</a>. Learned a lot about React Router, loops, data.</p>
 
+<h3 id="day26">day 26: calculator</h3>
+<p>I did the interface of a calculator, mockup and code. I pretend to make it useful later when i learn more about js.</p>
+
+<h3 id="day27">day 27: init javascript</h3>
+<p>I studied JavaScript, especifically about how to manipulate elements of DOM. How to get elements, event listeners</p>
+
+<h3 id="day28">day 28: loops and loops</h3>
+<p>Today, I studied loops: forEach, map, filter... and HOW they're so useful. Then, I used it on Cooking's project.</p>
+
+<h3 id="day29">day 29: router</h3>
+<p>React Router was the subject of the day. I'm using in Cooking's project and I researched the fundamentals of it. good to learn!</p>
