@@ -78,8 +78,8 @@ main .text p {
 
 main .phone {
   background-color: white;
-  width: 330px;
-  height: 90%;
+  width: 300px;
+  height: 95%;
   border-radius: 2.5rem;
   position: relative;
   margin-left: 120px;
@@ -120,10 +120,14 @@ main .phone .display .top {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 main .phone .display .top .back {
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 main .phone .display .top .img {
