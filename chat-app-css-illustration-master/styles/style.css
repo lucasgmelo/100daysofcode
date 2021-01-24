@@ -1,1 +1,154 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  overflow: hidden;
+}
+
+body {
+  background-color: white;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: -80px;
+  top: 0;
+  height: 75vh;
+  width: 500px;
+  border-radius: 0 0 50% 50%;
+  background: linear-gradient(195.99deg, #E942FF -26.29%, #8838FF 127.98%);
+}
+
+body::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  right: -130px;
+  top: 200px;
+  height: 75vh;
+  width: 500px;
+  border-radius: 50% 50% 0 0;
+  background: #f5f3f7;
+}
+
+main {
+  width: 70vw;
+  height: 75vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+main .text {
+  margin-left: 10px;
+}
+
+main .text h1 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+main .text p {
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+main .phone {
+  background-color: white;
+  width: 330px;
+  height: 90%;
+  border-radius: 2rem;
+  margin-left: 120px;
+  -webkit-filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .phone .display {
+  position: relative;
+  background-color: #f1f1f1;
+  width: 92%;
+  height: 94%;
+  border-radius: 2rem;
+}
+
+main .phone .display .top {
+  height: 90px;
+  width: 100%;
+  background: linear-gradient(195.99deg, #E942FF -26.29%, #8838FF 127.98%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .phone .display .top .img {
+  height: 44px;
+  width: 44px;
+  background-color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .phone .display .top .img img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+main .phone .display .top .info h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+main .phone .display .top .info p {
+  color: #c6cacd;
+  font-size: 12px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

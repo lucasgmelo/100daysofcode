@@ -19,3 +19,150 @@ $size: 16px;
 $normal: 400;
 $semi: 500;
 $bold: 700;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background-color: $white;
+    height: 100vh;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+
+        left: -80px;
+        top: 0;
+
+        height: 75vh;
+        width: 500px;
+
+        border-radius: 0 0 50% 50%;
+
+        background: linear-gradient(195.99deg, #E942FF -26.29%, #8838FF 127.98%);
+    }
+
+    &::before {
+        content: "";
+        z-index: -1;
+
+        position: absolute;
+        right: -130px;
+        top: 200px;
+
+        height: 75vh;
+        width: 500px;
+
+        border-radius: 50% 50% 0 0;
+
+        background: $whiteViolet;
+    }
+}
+
+main {
+    width: 70vw;
+    height: 75vh;
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+
+    .text {
+        margin-left: 10px;
+        h1 {
+            margin-bottom: 30px;
+            font-weight: $semi;
+        }
+        p {
+            line-height: 27px;
+            letter-spacing: 1px;
+            color: #333;
+        }
+    }
+
+    .phone {
+        background-color: white;
+        width: 330px;
+        height: 90%;
+        border-radius: 2rem;
+
+        margin-left: 120px;
+
+        filter: drop-shadow(2px 2px 8px rgba(0, 0, 0, 0.15));
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .display {
+
+            position: relative;
+
+            background-color: #f1f1f1;
+
+            width: 92%;
+            height: 94%;
+
+            border-radius: 2rem;
+
+            .top {
+                height: 90px;
+                width: 100%;
+
+               background: linear-gradient(195.99deg, #E942FF -26.29%, #8838FF 127.98%);
+
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+
+               .img {
+                   height: 44px;
+                   width: 44px;
+                   background-color: white;
+                   border-radius: 50%;
+                
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+
+                   img {
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50%;
+                   }
+               }
+
+               .info {
+                   h3 {
+                       color: white;
+                       font-size: 16px;
+                       font-weight: 500;
+                   }
+                   p {
+                       color: $grey;
+                       font-size: 12px;
+                       font-weight: 400;
+                   }
+               }
+
+            }
+
+
+        }
+    }
+
+}
+
