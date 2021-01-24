@@ -47,8 +47,8 @@ body::before {
 }
 
 main {
-  width: 70vw;
-  height: 75vh;
+  width: 77vw;
+  height: 83vh;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -62,7 +62,7 @@ main {
 }
 
 main .text {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 main .text h1 {
@@ -78,8 +78,8 @@ main .text p {
 
 main .phone {
   background-color: white;
-  width: 300px;
-  height: 95%;
+  width: 400px;
+  height: 97%;
   border-radius: 2.5rem;
   position: relative;
   margin-left: 120px;
@@ -105,7 +105,7 @@ main .phone .fone {
 main .phone .display {
   position: relative;
   background-color: #f1f1f1;
-  width: 92%;
+  width: 93%;
   height: 95%;
   border-radius: 2rem;
 }
@@ -125,9 +125,20 @@ main .phone .display .top {
           justify-content: space-between;
 }
 
+main .phone .display .top .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 main .phone .display .top .back {
+  height: 20px;
   margin-top: 10px;
   margin-left: 10px;
+  margin-right: 15px;
 }
 
 main .phone .display .top .img {
@@ -161,13 +172,62 @@ main .phone .display .top .info {
 
 main .phone .display .top .info h3 {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 main .phone .display .top .info p {
   color: #c6cacd;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
+}
+
+main .phone .display .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .phone .display .message section {
+  max-width: 220px;
+  margin: 4px;
+  margin-top: 6px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgba(146, 65, 200, 0.2);
+  border-radius: 15px;
+  color: #3e2753;
+}
+
+main .phone .display .message #right {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: white;
+  margin-top: 0;
+}
+
+main .phone .display .message #photos {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .phone .display .message #photos section {
+  padding: 0;
+  background-color: transparent;
+  margin-bottom: 0;
+}
+
+main .phone .display .message #photos section img {
+  background-size: cover;
+  max-height: 50px;
+  width: 60px;
 }
 /*# sourceMappingURL=style.css.map */

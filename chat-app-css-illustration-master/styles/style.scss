@@ -72,8 +72,8 @@ body {
 }
 
 main {
-    width: 70vw;
-    height: 75vh;
+    width: 77vw;
+    height: 83vh;
     
     display: grid;
     justify-content: center;
@@ -81,7 +81,7 @@ main {
     grid-template-columns: 1fr 1fr;
 
     .text {
-        margin-left: 10px;
+        margin-left: 20px;
         h1 {
             margin-bottom: 30px;
             font-weight: $semi;
@@ -95,8 +95,8 @@ main {
 
     .phone {
         background-color: white;
-        width: 300px;
-        height: 95%;
+        width: 400px;
+        height: 97%;
         border-radius: 2.5rem;
 
         position: relative;
@@ -121,7 +121,7 @@ main {
 
             background-color: #f1f1f1;
 
-            width: 92%;
+            width: 93%;
             height: 95%;
 
             border-radius: 2rem;
@@ -136,9 +136,16 @@ main {
                align-items: center;
                justify-content: space-between;
 
+               .group {
+                   display: flex;
+                   align-items: center;
+               }
+
                .back {
+                height: 20px;
                 margin-top: 10px;
                 margin-left: 10px;
+                margin-right: 15px;
                }
 
                .img {
@@ -170,18 +177,63 @@ main {
 
                    h3 {
                        color: white;
-                       font-size: 16px;
+                       font-size: 18px;
                        font-weight: 500;
                    }
                    p {
                        color: $grey;
-                       font-size: 12px;
+                       font-size: 14px;
                        font-weight: 400;
                    }
                }
 
             }
 
+            .message {
+
+                display: flex;
+                flex-direction: column;
+
+                section {
+                    max-width: 220px;
+
+                    margin: 4px;
+                    margin-top: 6px;
+                    margin-left: 10px;
+                    padding: 10px;
+
+                    background-color: rgba(146, 65, 200, 0.2);
+                    border-radius: 15px;
+
+                    color: $darkViolet;
+                }
+
+                #right {
+                        align-self: flex-end;
+                        background-color: white;
+                        margin-top: 0;
+                }
+
+                #photos {
+                    align-self: flex-end;
+                    background-color: transparent;
+                    display: flex;
+
+                    section {
+                        padding: 0;
+                        background-color: transparent;
+                        margin-bottom: 0;
+                        
+                        img {
+                            background-size: cover;
+                            max-height: 50px;
+                            width: 60px;
+                        }
+
+                    }
+
+                }
+            }
 
         }
     }
