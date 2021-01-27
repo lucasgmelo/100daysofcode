@@ -1,0 +1,41 @@
+body {
+    margin: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #656871;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle::before {
+    background-size: 650px 600px;
+  }
+
+
+.circle:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #656871 0%, #888b94 20%, #656871 40%, #656871 100%);
+  background-repeat: no-repeat;
+  background-size: 450px 400px;
+  animation: shimmer 1.5s linear infinite;
+}
+
+@keyframes shimmer {
+    0% {
+      background-position: -450px 0;
+    }
+    100% {
+      background-position: 450px 0;
+    }
+  }
