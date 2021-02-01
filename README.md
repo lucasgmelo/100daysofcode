@@ -6,7 +6,7 @@
 <p> ps: the days that there's no project, it's because I'm just studying. I'm writing on Notion all important points.</p>
 
 <h2>Summary</h2> 
-<ol>
+<ul>
   <li><a href="#day1">review html tags</a></li>
   <li><a href="#day2">study about SEO - Search Engine Optimization </a></li>
   <li><a href="#day3">Web Accessibility</a></li>
@@ -24,12 +24,7 @@
   <li><a href="#day19">Animations, Transitions and Transforms</a></li>
   <li><a href="#day20">To Do list - layout</a></li>
   <li><a href="#day22">Windows XP - UI Clone</a></li>
-
-
-
-
-  
-</ol>
+</ul>
 
 <h2>what I did each day: </h2> 
 
@@ -135,3 +130,6 @@
 
 <h3 id="day29">day 29: router</h3>
 <p>React Router was the subject of the day. I'm using in Cooking's project and I researched the fundamentals of it. good to learn!</p>
+
+<h3 id="day30">day 30-37: rupaul's quiz</h3>
+<p>This was such a good week. I've been part of 2ª Imersão React Alura and learned a lot of things. It was the first time I used Next js. Improved my abilities of styled components, eslint and deploy. Check it <a href="https://github.com/lucasgmelo/rupauls-quiz">here.</a> </p>
