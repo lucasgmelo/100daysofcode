@@ -133,3 +133,9 @@
 
 <h3 id="day30">day 30-37: rupaul's quiz</h3>
 <p>This was such a good week. I've been part of 2ª Imersão React Alura and learned a lot of things. It was the first time I used Next js. Improved my abilities of styled components, eslint and deploy. Check it <a href="https://github.com/lucasgmelo/rupauls-quiz">here.</a> </p>
+
+<h3 id="day38">day 38: consuming API to Cooking</h3>
+<p>Today, I've learned about axios, props and integrated the api to our project. It's almost ending, I'm happy!</p>
+
+<h3 id="day39">day 39: Marathon Discover</h3>
+<p>I decided to do this marathon aside, it's good to review and learn good practices</p>
