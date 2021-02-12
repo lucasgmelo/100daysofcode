@@ -137,5 +137,11 @@
 <h3 id="day38">day 38: consuming API to Cooking</h3>
 <p>Today, I've learned about axios, props and integrated the api to our project. It's almost ending, I'm happy!</p>
 
-<h3 id="day39">day 39: Marathon Discover</h3>
+<h3 id="day39">day 39-41: Marathon Discover</h3>
 <p>I decided to do this marathon aside, it's good to review and learn good practices</p>
+
+<h3 id="day42">day 42-43: Swift</h3>
+<p>Today, I started to learn Swift! It was soo good. When I finish my first application, I'll post here</p>
+
+<h3 id="day42">day 44-46: Cooking</h3>
+<p>These were my last days working on Cooking, for now. We finishid and the project is done. link here.</p>
