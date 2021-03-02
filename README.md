@@ -145,3 +145,14 @@
 
 <h3 id="day42">day 44-46: Cooking</h3>
 <p>These were my last days working on Cooking, for now. We finishid and the project is done. link here.</p>
+
+<h3 id="day47">day 47-51: Redux</h3>
+<p>The past days, I decided to study Redux and React Redux</p>
+
+<h3 id="day51">day 51-57: Digital City</h3>
+<p>I'm creating a React Application, you can check the repository right here.</p>
+
+<h3 id="day58">day 58-68: Next Level Week - move it</h3>
+<p>The next level week was soooo good! I've improved my Next js skills and I'll be in the Ignite (Rocketseat's bootcamp). Probably the next days will be so productive. For now, I'm improving the NLW application.</p>
+
+
