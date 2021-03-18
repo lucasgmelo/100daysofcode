@@ -6,7 +6,7 @@
 <p> ps: the days that there's no project, it's because I'm just studying. I'm writing on Notion all important points.</p>
 
 <h2>Summary</h2> 
-<ol>
+<ul>
   <li><a href="#day1">review html tags</a></li>
   <li><a href="#day2">study about SEO - Search Engine Optimization </a></li>
   <li><a href="#day3">Web Accessibility</a></li>
@@ -24,12 +24,7 @@
   <li><a href="#day19">Animations, Transitions and Transforms</a></li>
   <li><a href="#day20">To Do list - layout</a></li>
   <li><a href="#day22">Windows XP - UI Clone</a></li>
-
-
-
-
-  
-</ol>
+</ul>
 
 <h2>what I did each day: </h2> 
 
@@ -135,3 +130,29 @@
 
 <h3 id="day29">day 29: router</h3>
 <p>React Router was the subject of the day. I'm using in Cooking's project and I researched the fundamentals of it. good to learn!</p>
+
+<h3 id="day30">day 30-37: rupaul's quiz</h3>
+<p>This was such a good week. I've been part of 2ª Imersão React Alura and learned a lot of things. It was the first time I used Next js. Improved my abilities of styled components, eslint and deploy. Check it <a href="https://github.com/lucasgmelo/rupauls-quiz">here.</a> </p>
+
+<h3 id="day38">day 38: consuming API to Cooking</h3>
+<p>Today, I've learned about axios, props and integrated the api to our project. It's almost ending, I'm happy!</p>
+
+<h3 id="day39">day 39-41: Marathon Discover</h3>
+<p>I decided to do this marathon aside, it's good to review and learn good practices</p>
+
+<h3 id="day42">day 42-43: Swift</h3>
+<p>Today, I started to learn Swift! It was soo good. When I finish my first application, I'll post here</p>
+
+<h3 id="day42">day 44-46: Cooking</h3>
+<p>These were my last days working on Cooking, for now. We finishid and the project is done. link here.</p>
+
+<h3 id="day47">day 47-51: Redux</h3>
+<p>The past days, I decided to study Redux and React Redux</p>
+
+<h3 id="day51">day 51-57: Digital City</h3>
+<p>I'm creating a React Application, you can check the repository right here.</p>
+
+<h3 id="day58">day 58-68: Next Level Week - move it</h3>
+<p>The next level week was soooo good! I've improved my Next js skills and I'll be in the Ignite (Rocketseat's bootcamp). Probably the next days will be so productive. For now, I'm improving the NLW application.</p>
+
+
